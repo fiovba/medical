@@ -1,0 +1,121 @@
+:root{
+    --mavi:#6bc2f1;
+    --boz:#f1f1f1;
+    --goy:#072035;
+}
+.vh-50{height: 50vh;}
+.bg-mavi{background-color:var(--mavi)}
+.bg-boz{background-color:var(--boz)}
+.text-mavi{color:var(--mavi)}
+.bg-navbar{background-color: #ffffffcb;}
+header{background: url('img/headerbg.jpg') center/cover;}
+#hekimbaba{max-width: 450px;}
+#feature1{background:linear-gradient(#0000006a, #0000006a), url('img/feature1.jpg') center/cover}
+#feature2{background:linear-gradient(#0000006a, #0000006a), url('img/feature2.jpg') center/cover}
+.card-height{max-height: 250px;}
+.article-img{width: 50px;height: 50px;}
+
+.carousel-item {
+    height: 400px;
+
+    img {
+        width: 100%;
+    }
+}
+.slider-text1{
+    opacity: 0.851;
+    width: 780px;
+    height: 145px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
+.slider-text2{
+font-size: 14px;
+letter-spacing: 1px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Roboto";
+}
+.dirnag{
+    font-size: 4em;
+    padding-top:15px;
+    color: white;
+}
+.slider-text3{
+    opacity: 0.702;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+.carousel-indicators button {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+}
+#slider1{
+    background-image: url("./img/sliderImg1.png");
+    background-position: center;
+    background-size: cover;
+}
+#slider2{
+    background-image: url("./img/sliderImg2.png");
+    background-position: center;
+    background-size: cover;
+}
+#slider3{
+    background-image: url("./img/sliderImg3.png");
+    background-position: center;
+    background-size: cover;
+}
+#slider4{
+    background-image: url("./img/sliderImg4.png");
+    background-position: center;
+    background-size: cover;
+}
+#slider5{
+    background-image: url("./img/sliderImg5.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-indicators button.active {
+    scale: 1.2;
+}
+.form-cs{
+    width:30vw;
+    
+    border-radius: 0;
+    border:1px solid #e5e5e5;
+    color:#e5e5e5;
+}
+.form-cs1{
+    width:15vw;
+    color:#6bc1f1;
+    border:1px solid #6bc1f1;
+}
+.form-cs3{
+    resize: none;
+    height: 15vh;
+
+}
+.form-h-1{
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #413d4b;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.bg-goy{background-color: var(--goy);}
+.psd-design{
+    opacity: 0.702;
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+}
